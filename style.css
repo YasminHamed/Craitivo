@@ -1,0 +1,477 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    background-color: #0c0c0c;
+    color: white;
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0px;
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+/* navbar */
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-color: #151515;
+    padding: 20px;
+    position: relative;
+    top: 0px;
+    z-index: 100;
+}
+.logo{
+    color: #5cd2b9;
+    font-size: 50px;
+    font-weight: 700;
+}
+.logot{
+    font-size: 7px;
+    letter-spacing: 5px;
+}
+.linkee{
+    margin-right: 20px;
+}
+/* section1 */
+.sec1{
+    margin-top: -100px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    /* margin-left: 150px; */
+    background: rgb(92,210,185);
+    background: linear-gradient(260deg, rgba(92,210,185,0.32209380334164917) 0%, rgba(12,12,12,1) 59%);
+}
+.sec1img{
+    opacity: 0.8;
+}
+.para1{
+    color: #5cd2b9;
+    letter-spacing: 3px;
+    font-size: 15px;
+}
+.secleft{
+    margin-left: 70px;
+    margin-top: 150px;
+}
+.para2{
+    font-size: 77px;
+    font-weight: bold;
+}
+.spann{
+    color: #5cd2b9;
+    font-size: 77px;
+    font-weight: bold;
+}
+.para3{
+    color: #898989;
+    max-width: 550px;
+    line-height: 2;
+}
+.line{
+    max-width: 100px;
+    border-top: 3px solid #5cd2b9;
+    margin: 20px 0px;
+}
+.buttonn{
+    display: flex;
+    align-content: center;
+    align-items: end;
+    justify-content: start;
+}
+.para45{
+    margin-right: 20px;
+}
+.para4{
+    border-bottom: 1px solid #323232;
+    padding-bottom: 25px;
+    max-width: 145px;
+    letter-spacing: 5px;
+}
+.para5{
+    color: #5cd2b9;
+    font-size: 15px;
+    margin-top: 40px;
+}
+/* section2 */
+.sec2{
+    background-color: #000000;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+.serice{
+    color: #5cd2b9;
+    letter-spacing: 3px;
+    font-size: 20px;
+}
+.para33{
+    color: #898989;
+    max-width: 75%;
+    line-height: 2;
+}
+.boxes1{
+    text-align: center;
+    width: 280px;
+    background-color: #151515;
+    padding: 30px;
+    margin: 10px;
+}
+.boxes2{
+    text-align: center;
+    background: rgb(92,210,185);
+    background: linear-gradient(0deg, rgba(92,210,185,0.29408259885985644) 0%, rgb(0, 0, 0)90%);
+    
+    width: 280px;
+    padding: 30px;
+    margin: 10px;
+}
+.row1{
+    margin-top: 30px;
+}
+.sec2title{
+    margin: 10px;
+    font-size: 28px;
+    font-weight: 600;
+}
+.para333{
+    color: #898989;
+    line-height: 2;
+}
+.viewall{
+    font-size: 20px;
+    background-color: #5cd2b9;
+    padding: 20px;
+}
+/* section3 */
+.sec3{
+    background-color: #151515;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 70px;
+}
+.para22{
+    font-size: 63px;
+    font-weight: bold;
+}
+.spann1{
+    color: #5cd2b9;
+    font-size: 63px;
+    font-weight: bold;
+}
+.sec3title{
+    font-weight: 600;
+    margin-left: 20px;
+}
+.para3333{
+    color: #898989;
+    line-height: 1.5;
+    margin: 5px 20px;
+}
+.sec3right{
+    margin-left: 20px;
+}
+/* section4 */
+.sec4{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding: 70px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg, rgba(92,210,185,0.29408259885985644) 0%, rgba(0,0,0,1) 100%), url(images/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ.jpg);
+}
+.spann11{
+    color: #5cd2b9;
+    font-size: 55px;
+    font-weight: bold;
+}
+.plus{
+    font-size: 30px;
+}
+.word{
+    font-weight: 500;
+    font-size: 23px;
+}
+/* section5 */
+.sec5{
+    background-color: #000000;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: end;
+    padding: 100px;
+}
+.check{
+    margin-right: 10px;
+}
+/* section6 */
+.sec6{
+    display: flex;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    padding:70px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(270deg, rgba(92,210,185,0.29408259885985644) 0%, rgba(0,0,0,1) 100%)
+    , url(images/side-view-portrait-of-a-woman-with-make-up-CTUMAUJ\ -\ Copy.jpg);
+}
+.logos{
+    filter: grayscale(100%);
+}
+/* section7 */
+.sec7{
+    background-color: #000000;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+.relative{
+    position: relative;
+}
+.absolute{
+    position: absolute;
+    top: 40%;
+    left: 40%;
+}
+/* section8 */
+.sec8{
+    text-align: center;
+    padding:70px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg, rgba(92,210,185,0) 0%, rgba(0,0,0,0.5489845596441701) 100%) ,url(images/Bg-1.jpg);
+}
+.linee{
+    text-align: center;
+    width: 100px;
+    border-top: 3px solid #5cd2b9;
+    margin: 20px auto;
+}
+/* section9 */
+.sec9{
+    display: flex;
+    text-align: left;
+    align-content: center;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding:70px 150px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-image: linear-gradient(90deg, rgba(92,210,185,0) 0%, rgba(0,0,0,0.5489845596441701) 100%) ,url(images/Bg-1.jpg);
+}
+.buttonn1{
+    display: flex;
+    align-content: center;
+    align-items: end;
+    text-align: left;
+    justify-content: start;
+    max-width: 500px;
+    margin-bottom: 50px;
+    background-color: #151515;
+    padding: 20px 30px;
+}
+.people{
+    filter: grayscale(100%);
+    position: relative;
+    top: -50px;
+    right: 20px;
+}
+.sec3title9{
+    font-weight: 600;
+    margin-bottom: -20px;
+}
+.buttonnn{
+    display: flex;
+    justify-content: space-between;
+    max-width: 80px;
+}
+/* section10 */
+.sec10{
+    text-align: center;
+    padding:70px 150px;
+}
+/* section11 */
+.sec11{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0px 100px;
+}
+.images{
+    margin-bottom: 20px;
+}
+/* section12 */
+.sec12{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.4) 100%, rgba(0, 0, 0, 0.4) 100%),url(images/adadad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: end;
+    padding: 100px;
+}
+.clientbox{
+    background-color: #151515c9;
+    max-width: 450px;
+    padding: 30px;
+    margin: 50px;
+}
+.business{
+    color: #5cd2b9;
+    font-size: 13px;
+}
+.adam{
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.quote{
+    position: absolute;
+    right: 175px;
+}
+.buttonn12{
+    display: flex;
+    align-items: center;
+}
+.adamt{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+/* section13 */
+.sec13{
+    text-align: center;
+    padding:70px 150px;
+    background-color: #000000;
+}
+.news{
+    display: flex;
+}
+.rightt{
+    text-align: left;
+    max-width: 380px;
+    margin-left: 30px;
+}
+.buttonn13{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+.buttonn133{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.sec13title{
+    margin: 10px 0px;
+    font-size: 28px;
+    font-weight: 600;
+    color: #5cd2b9;
+}
+.para13{
+    color: #898989;
+    line-height: 1.7;
+}
+.calendar{
+    margin-right: 10px;
+}
+/* section14 */
+.sec14{
+    background-image: linear-gradient(90deg, rgba(0, 0, 0, 0.8) 100%, rgba(0, 0, 0, 0.8) 100%),url(images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;    
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    padding: 100px;
+    text-align: left;
+}
+.left{
+    max-width: 600px;
+}
+.form{
+    border: 2px solid #5cd2b9;
+    min-width: 500px;
+    padding: 15px;
+    color: #5cd2b9;
+    margin-right: 10px;
+}
+input{
+    background-color: #151515ec;
+    border: 1px solid #5cd2b9;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    height: 40px;
+}
+textarea{
+    margin-top: 10px;
+    background-color: #151515ec;
+    margin-bottom: 20px;
+    border: 1px solid #5cd2b9;
+    width: 95%;
+    height: 150px;
+}
+.send{
+    font-size: 20px;
+    background-color: #5cd2b9;
+    color: white;
+    padding: auto;
+    height: 50px;
+    margin-bottom: 70px;
+}
+.info{
+    color: #5cd2b9;
+    margin-left: 10px;
+}
+/* section15 */
+.sec15{
+    padding-top: 100px;
+    text-align: center;
+    background: rgb(92,210,185);
+    background: radial-gradient(circle, rgba(92,210,185,0.2) 0%, rgba(0,0,0,1) 50%);
+}
+.icons{
+    margin: 15px;
+}
+.row15 a{
+    color: #5cd2b9!important;
+    margin: 20px;
+}
